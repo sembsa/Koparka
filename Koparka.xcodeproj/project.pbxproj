@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036EAE6C2032049B00054336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE6B2032049B00054336 /* AppDelegate.swift */; };
+		036EAE6E2032049B00054336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE6D2032049B00054336 /* ViewController.swift */; };
+		036EAE702032049B00054336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036EAE6F2032049B00054336 /* Assets.xcassets */; };
+		036EAE732032049B00054336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036EAE712032049B00054336 /* Main.storyboard */; };
+		036EAE7F2032049B00054336 /* KoparkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE7E2032049B00054336 /* KoparkaTests.swift */; };
+		036EAE8A2032049B00054336 /* KoparkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE892032049B00054336 /* KoparkaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036EAE7B2032049B00054336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036EAE602032049B00054336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036EAE672032049B00054336;
+			remoteInfo = Koparka;
+		};
+		036EAE862032049B00054336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036EAE602032049B00054336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036EAE672032049B00054336;
+			remoteInfo = Koparka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036EAE682032049B00054336 /* Koparka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koparka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036EAE6B2032049B00054336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036EAE6D2032049B00054336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		036EAE6F2032049B00054336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036EAE722032049B00054336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036EAE742032049B00054336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036EAE752032049B00054336 /* Koparka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Koparka.entitlements; sourceTree = "<group>"; };
+		036EAE7A2032049B00054336 /* KoparkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoparkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036EAE7E2032049B00054336 /* KoparkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoparkaTests.swift; sourceTree = "<group>"; };
+		036EAE802032049B00054336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036EAE852032049B00054336 /* KoparkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoparkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036EAE892032049B00054336 /* KoparkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoparkaUITests.swift; sourceTree = "<group>"; };
+		036EAE8B2032049B00054336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036EAE652032049B00054336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036EAE772032049B00054336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036EAE822032049B00054336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036EAE5F2032049B00054336 = {
+			isa = PBXGroup;
+			children = (
+				036EAE6A2032049B00054336 /* Koparka */,
+				036EAE7D2032049B00054336 /* KoparkaTests */,
+				036EAE882032049B00054336 /* KoparkaUITests */,
+				036EAE692032049B00054336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036EAE692032049B00054336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036EAE682032049B00054336 /* Koparka.app */,
+				036EAE7A2032049B00054336 /* KoparkaTests.xctest */,
+				036EAE852032049B00054336 /* KoparkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036EAE6A2032049B00054336 /* Koparka */ = {
+			isa = PBXGroup;
+			children = (
+				036EAE6B2032049B00054336 /* AppDelegate.swift */,
+				036EAE6D2032049B00054336 /* ViewController.swift */,
+				036EAE6F2032049B00054336 /* Assets.xcassets */,
+				036EAE712032049B00054336 /* Main.storyboard */,
+				036EAE742032049B00054336 /* Info.plist */,
+				036EAE752032049B00054336 /* Koparka.entitlements */,
+			);
+			path = Koparka;
+			sourceTree = "<group>";
+		};
+		036EAE7D2032049B00054336 /* KoparkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				036EAE7E2032049B00054336 /* KoparkaTests.swift */,
+				036EAE802032049B00054336 /* Info.plist */,
+			);
+			path = KoparkaTests;
+			sourceTree = "<group>";
+		};
+		036EAE882032049B00054336 /* KoparkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036EAE892032049B00054336 /* KoparkaUITests.swift */,
+				036EAE8B2032049B00054336 /* Info.plist */,
+			);
+			path = KoparkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036EAE672032049B00054336 /* Koparka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036EAE8E2032049B00054336 /* Build configuration list for PBXNativeTarget "Koparka" */;
+			buildPhases = (
+				036EAE642032049B00054336 /* Sources */,
+				036EAE652032049B00054336 /* Frameworks */,
+				036EAE662032049B00054336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koparka;
+			productName = Koparka;
+			productReference = 036EAE682032049B00054336 /* Koparka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036EAE792032049B00054336 /* KoparkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036EAE912032049B00054336 /* Build configuration list for PBXNativeTarget "KoparkaTests" */;
+			buildPhases = (
+				036EAE762032049B00054336 /* Sources */,
+				036EAE772032049B00054336 /* Frameworks */,
+				036EAE782032049B00054336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036EAE7C2032049B00054336 /* PBXTargetDependency */,
+			);
+			name = KoparkaTests;
+			productName = KoparkaTests;
+			productReference = 036EAE7A2032049B00054336 /* KoparkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036EAE842032049B00054336 /* KoparkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036EAE942032049B00054336 /* Build configuration list for PBXNativeTarget "KoparkaUITests" */;
+			buildPhases = (
+				036EAE812032049B00054336 /* Sources */,
+				036EAE822032049B00054336 /* Frameworks */,
+				036EAE832032049B00054336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036EAE872032049B00054336 /* PBXTargetDependency */,
+			);
+			name = KoparkaUITests;
+			productName = KoparkaUITests;
+			productReference = 036EAE852032049B00054336 /* KoparkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036EAE602032049B00054336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sebastian Trześniewski";
+				TargetAttributes = {
+					036EAE672032049B00054336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					036EAE792032049B00054336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 036EAE672032049B00054336;
+					};
+					036EAE842032049B00054336 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 036EAE672032049B00054336;
+					};
+				};
+			};
+			buildConfigurationList = 036EAE632032049B00054336 /* Build configuration list for PBXProject "Koparka" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036EAE5F2032049B00054336;
+			productRefGroup = 036EAE692032049B00054336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036EAE672032049B00054336 /* Koparka */,
+				036EAE792032049B00054336 /* KoparkaTests */,
+				036EAE842032049B00054336 /* KoparkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036EAE662032049B00054336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036EAE702032049B00054336 /* Assets.xcassets in Resources */,
+				036EAE732032049B00054336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036EAE782032049B00054336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036EAE832032049B00054336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036EAE642032049B00054336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036EAE6E2032049B00054336 /* ViewController.swift in Sources */,
+				036EAE6C2032049B00054336 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036EAE762032049B00054336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036EAE7F2032049B00054336 /* KoparkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036EAE812032049B00054336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036EAE8A2032049B00054336 /* KoparkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036EAE7C2032049B00054336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036EAE672032049B00054336 /* Koparka */;
+			targetProxy = 036EAE7B2032049B00054336 /* PBXContainerItemProxy */;
+		};
+		036EAE872032049B00054336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036EAE672032049B00054336 /* Koparka */;
+			targetProxy = 036EAE862032049B00054336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		036EAE712032049B00054336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036EAE722032049B00054336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036EAE8C2032049B00054336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036EAE8D2032049B00054336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		036EAE8F2032049B00054336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Koparka/Koparka.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Koparka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.Koparka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		036EAE902032049B00054336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Koparka/Koparka.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Koparka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.Koparka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		036EAE922032049B00054336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoparkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.KoparkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koparka.app/Contents/MacOS/Koparka";
+			};
+			name = Debug;
+		};
+		036EAE932032049B00054336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoparkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.KoparkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koparka.app/Contents/MacOS/Koparka";
+			};
+			name = Release;
+		};
+		036EAE952032049B00054336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoparkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.KoparkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Koparka;
+			};
+			name = Debug;
+		};
+		036EAE962032049B00054336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KoparkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.KoparkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Koparka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036EAE632032049B00054336 /* Build configuration list for PBXProject "Koparka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036EAE8C2032049B00054336 /* Debug */,
+				036EAE8D2032049B00054336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036EAE8E2032049B00054336 /* Build configuration list for PBXNativeTarget "Koparka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036EAE8F2032049B00054336 /* Debug */,
+				036EAE902032049B00054336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036EAE912032049B00054336 /* Build configuration list for PBXNativeTarget "KoparkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036EAE922032049B00054336 /* Debug */,
+				036EAE932032049B00054336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036EAE942032049B00054336 /* Build configuration list for PBXNativeTarget "KoparkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036EAE952032049B00054336 /* Debug */,
+				036EAE962032049B00054336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036EAE602032049B00054336 /* Project object */;
+}
