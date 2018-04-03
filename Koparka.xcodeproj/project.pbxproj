@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0325DBA9205B1A410033FE27 /* Nanopool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325DBA8205B1A410033FE27 /* Nanopool.swift */; };
+		03512A652040F32B001A6035 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03512A642040F32A001A6035 /* Charts.framework */; };
+		03512A662040F32B001A6035 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03512A642040F32A001A6035 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		036EAE6C2032049B00054336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE6B2032049B00054336 /* AppDelegate.swift */; };
 		036EAE6E2032049B00054336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE6D2032049B00054336 /* ViewController.swift */; };
 		036EAE702032049B00054336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036EAE6F2032049B00054336 /* Assets.xcassets */; };
 		036EAE732032049B00054336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036EAE712032049B00054336 /* Main.storyboard */; };
 		036EAE7F2032049B00054336 /* KoparkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE7E2032049B00054336 /* KoparkaTests.swift */; };
 		036EAE8A2032049B00054336 /* KoparkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE892032049B00054336 /* KoparkaUITests.swift */; };
+		038B7539206E95B700B85B2C /* TouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B7538206E95B700B85B2C /* TouchBar.swift */; };
+		03F2505E204EE48900076A46 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2505D204EE48900076A46 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +37,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		03512A672040F32B001A6035 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03512A662040F32B001A6035 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0325DBA8205B1A410033FE27 /* Nanopool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nanopool.swift; sourceTree = "<group>"; };
+		03512A642040F32A001A6035 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/Mac/Charts.framework; sourceTree = "<group>"; };
 		036EAE682032049B00054336 /* Koparka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koparka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036EAE6B2032049B00054336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		036EAE6D2032049B00054336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +67,8 @@
 		036EAE852032049B00054336 /* KoparkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoparkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036EAE892032049B00054336 /* KoparkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoparkaUITests.swift; sourceTree = "<group>"; };
 		036EAE8B2032049B00054336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038B7538206E95B700B85B2C /* TouchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBar.swift; sourceTree = "<group>"; };
+		03F2505D204EE48900076A46 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03512A652040F32B001A6035 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +100,12 @@
 		036EAE5F2032049B00054336 = {
 			isa = PBXGroup;
 			children = (
+				03512A642040F32A001A6035 /* Charts.framework */,
 				036EAE6A2032049B00054336 /* Koparka */,
 				036EAE7D2032049B00054336 /* KoparkaTests */,
 				036EAE882032049B00054336 /* KoparkaUITests */,
 				036EAE692032049B00054336 /* Products */,
+				8A83CB6F98D53760AA51CC4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +124,9 @@
 			children = (
 				036EAE6B2032049B00054336 /* AppDelegate.swift */,
 				036EAE6D2032049B00054336 /* ViewController.swift */,
+				0325DBA8205B1A410033FE27 /* Nanopool.swift */,
+				03F2505D204EE48900076A46 /* Settings.swift */,
+				038B7538206E95B700B85B2C /* TouchBar.swift */,
 				036EAE6F2032049B00054336 /* Assets.xcassets */,
 				036EAE712032049B00054336 /* Main.storyboard */,
 				036EAE742032049B00054336 /* Info.plist */,
@@ -124,6 +153,13 @@
 			path = KoparkaUITests;
 			sourceTree = "<group>";
 		};
+		8A83CB6F98D53760AA51CC4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +170,7 @@
 				036EAE642032049B00054336 /* Sources */,
 				036EAE652032049B00054336 /* Frameworks */,
 				036EAE662032049B00054336 /* Resources */,
+				03512A672040F32B001A6035 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,7 +224,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Sebastian Trześniewski";
 				TargetAttributes = {
 					036EAE672032049B00054336 = {
@@ -257,8 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038B7539206E95B700B85B2C /* TouchBar.swift in Sources */,
+				03F2505E204EE48900076A46 /* Settings.swift in Sources */,
 				036EAE6E2032049B00054336 /* ViewController.swift in Sources */,
 				036EAE6C2032049B00054336 /* AppDelegate.swift in Sources */,
+				0325DBA9205B1A410033FE27 /* Nanopool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +359,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -326,6 +367,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -376,6 +418,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -383,6 +426,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -415,9 +459,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Koparka/Koparka.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Koparka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.Koparka;
@@ -430,9 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Koparka/Koparka.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = Koparka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.sembsa.Koparka;
