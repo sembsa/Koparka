@@ -21,6 +21,10 @@ class Nanopool {
         case PayoutAddress
     }
     
+    init() {
+        
+    }
+    
     init(mode: addressNanopool, addressWallet: String) {
         address = getAddress(mode: mode, addressWallet: addressWallet)
     }
@@ -95,13 +99,15 @@ class NanopoolGeneralInfo {
     
     private var generalInfoData: generalInfo!
     
-    
-    init(data: Data) {
-        generalInfoData = decodeJsonGeneralInfo(data: data)
+    init() {
     }
     
     func getGeneralInfo() -> generalInfo {
         return generalInfoData
+    }
+    
+    func setGeneralInfo(data: Data) {
+        generalInfoData = decodeJsonGeneralInfo(data: data)
     }
 
 }
@@ -130,12 +136,15 @@ class NanopoolPayoutLimit {
     
     private var payoutLimit: Payment!
     
-    init(data: Data) {
-        payoutLimit = decodeJsonGeneralInfo(data: data)
+    init() {
     }
     
     func getPayoutLimit() -> Payment {
         return payoutLimit
+    }
+    
+    func setPayloadLimit(data: Data) {
+        payoutLimit = decodeJsonGeneralInfo(data: data)
     }
     
 }
@@ -176,12 +185,15 @@ class NanopoolCalculator {
     
     private var calculator: Calculator!
     
-    init(data: Data) {
-        calculator = decodeJsonCalculator(data: data)
+    init() {
     }
     
     func getCalculator() -> Calculator {
         return calculator
+    }
+    
+    func setCalculator(data: Data) {
+        calculator = decodeJsonCalculator(data: data)
     }
     
 }

@@ -10,6 +10,7 @@
 		0325DBA9205B1A410033FE27 /* Nanopool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325DBA8205B1A410033FE27 /* Nanopool.swift */; };
 		03512A652040F32B001A6035 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03512A642040F32A001A6035 /* Charts.framework */; };
 		03512A662040F32B001A6035 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 03512A642040F32A001A6035 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		03522BF3207809D900DAA1FD /* MinerStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03522BF2207809D900DAA1FD /* MinerStat.swift */; };
 		036EAE6C2032049B00054336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE6B2032049B00054336 /* AppDelegate.swift */; };
 		036EAE6E2032049B00054336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE6D2032049B00054336 /* ViewController.swift */; };
 		036EAE702032049B00054336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036EAE6F2032049B00054336 /* Assets.xcassets */; };
@@ -17,6 +18,12 @@
 		036EAE7F2032049B00054336 /* KoparkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE7E2032049B00054336 /* KoparkaTests.swift */; };
 		036EAE8A2032049B00054336 /* KoparkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EAE892032049B00054336 /* KoparkaUITests.swift */; };
 		038B7539206E95B700B85B2C /* TouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B7538206E95B700B85B2C /* TouchBar.swift */; };
+		038C33842082A2E000F0872C /* ConnectPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C33832082A2E000F0872C /* ConnectPool.swift */; };
+		038C33862082A35E00F0872C /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C33852082A35E00F0872C /* Pool.swift */; };
+		03E7A20620740D37007C54FE /* ChartsDataMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E7A20520740D37007C54FE /* ChartsDataMulti.swift */; };
+		03E7A2322077F21A007C54FE /* ChartsDataSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E7A2312077F21A007C54FE /* ChartsDataSingle.swift */; };
+		03E7A2352077F2EF007C54FE /* VariableCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E7A2342077F2EF007C54FE /* VariableCharts.swift */; };
+		03E7A23720780474007C54FE /* ChartsDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E7A23620780474007C54FE /* ChartsDataBase.swift */; };
 		03F2505E204EE48900076A46 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F2505D204EE48900076A46 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +61,7 @@
 /* Begin PBXFileReference section */
 		0325DBA8205B1A410033FE27 /* Nanopool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nanopool.swift; sourceTree = "<group>"; };
 		03512A642040F32A001A6035 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/Mac/Charts.framework; sourceTree = "<group>"; };
+		03522BF2207809D900DAA1FD /* MinerStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinerStat.swift; sourceTree = "<group>"; };
 		036EAE682032049B00054336 /* Koparka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koparka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036EAE6B2032049B00054336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		036EAE6D2032049B00054336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +76,12 @@
 		036EAE892032049B00054336 /* KoparkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoparkaUITests.swift; sourceTree = "<group>"; };
 		036EAE8B2032049B00054336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		038B7538206E95B700B85B2C /* TouchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBar.swift; sourceTree = "<group>"; };
+		038C33832082A2E000F0872C /* ConnectPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPool.swift; sourceTree = "<group>"; };
+		038C33852082A35E00F0872C /* Pool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pool.swift; sourceTree = "<group>"; };
+		03E7A20520740D37007C54FE /* ChartsDataMulti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDataMulti.swift; sourceTree = "<group>"; };
+		03E7A2312077F21A007C54FE /* ChartsDataSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDataSingle.swift; sourceTree = "<group>"; };
+		03E7A2342077F2EF007C54FE /* VariableCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableCharts.swift; sourceTree = "<group>"; };
+		03E7A23620780474007C54FE /* ChartsDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDataBase.swift; sourceTree = "<group>"; };
 		03F2505D204EE48900076A46 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,9 +136,10 @@
 		036EAE6A2032049B00054336 /* Koparka */ = {
 			isa = PBXGroup;
 			children = (
+				03E7A2332077F2D3007C54FE /* Protocol */,
+				03E7A20320740CD9007C54FE /* Class */,
 				036EAE6B2032049B00054336 /* AppDelegate.swift */,
 				036EAE6D2032049B00054336 /* ViewController.swift */,
-				0325DBA8205B1A410033FE27 /* Nanopool.swift */,
 				03F2505D204EE48900076A46 /* Settings.swift */,
 				038B7538206E95B700B85B2C /* TouchBar.swift */,
 				036EAE6F2032049B00054336 /* Assets.xcassets */,
@@ -151,6 +166,28 @@
 				036EAE8B2032049B00054336 /* Info.plist */,
 			);
 			path = KoparkaUITests;
+			sourceTree = "<group>";
+		};
+		03E7A20320740CD9007C54FE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0325DBA8205B1A410033FE27 /* Nanopool.swift */,
+				03E7A20520740D37007C54FE /* ChartsDataMulti.swift */,
+				03E7A2312077F21A007C54FE /* ChartsDataSingle.swift */,
+				03E7A23620780474007C54FE /* ChartsDataBase.swift */,
+				03522BF2207809D900DAA1FD /* MinerStat.swift */,
+				038C33832082A2E000F0872C /* ConnectPool.swift */,
+				038C33852082A35E00F0872C /* Pool.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		03E7A2332077F2D3007C54FE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				03E7A2342077F2EF007C54FE /* VariableCharts.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		8A83CB6F98D53760AA51CC4E /* Frameworks */ = {
@@ -294,11 +331,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E7A23720780474007C54FE /* ChartsDataBase.swift in Sources */,
 				038B7539206E95B700B85B2C /* TouchBar.swift in Sources */,
 				03F2505E204EE48900076A46 /* Settings.swift in Sources */,
+				038C33862082A35E00F0872C /* Pool.swift in Sources */,
+				038C33842082A2E000F0872C /* ConnectPool.swift in Sources */,
+				03E7A2352077F2EF007C54FE /* VariableCharts.swift in Sources */,
+				03E7A20620740D37007C54FE /* ChartsDataMulti.swift in Sources */,
 				036EAE6E2032049B00054336 /* ViewController.swift in Sources */,
 				036EAE6C2032049B00054336 /* AppDelegate.swift in Sources */,
+				03522BF3207809D900DAA1FD /* MinerStat.swift in Sources */,
 				0325DBA9205B1A410033FE27 /* Nanopool.swift in Sources */,
+				03E7A2322077F21A007C54FE /* ChartsDataSingle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

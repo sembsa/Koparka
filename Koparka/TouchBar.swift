@@ -31,7 +31,6 @@ class TouchBar: NSWindowController, onOff {
         NotificationCenter.default.addObserver(forName: NSNotification.Name.init("TBSpeed"), object: nil, queue: OperationQueue.current) { (dane) in
             self.setSpeedTB(speed: dane.userInfo!["Speed"] as! String)
         }
-        // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
 
     
